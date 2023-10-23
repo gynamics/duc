@@ -190,6 +190,8 @@ def main():
     obasesel.bind("<<ComboboxSelected>>", convert)
     ikilosel.bind("<<ComboboxSelected>>", convert)
     okilosel.bind("<<ComboboxSelected>>", convert)
+    ibytesel.bind("<<ComboboxSelected>>", convert)
+    obytesel.bind("<<ComboboxSelected>>", convert)
     iprefixsel.bind("<<ComboboxSelected>>", convert)
     oprefixsel.bind("<<ComboboxSelected>>", convert)
     inputfld.bind("<KeyRelease>", convert)
