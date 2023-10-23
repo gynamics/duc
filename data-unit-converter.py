@@ -13,9 +13,9 @@ import string
 
 
 def intpow(x, n):
-    "Calculate integer power x**n but return x if n<=0."
+    "Calculate integer power x**n but return 1 if n<=0."
     if n <= 0:
-        return x
+        return 1
     else:
         return x * pow(x, n - 1)
 
